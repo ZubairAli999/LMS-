@@ -1,0 +1,101 @@
+2026-08-12 16:12:33 [ERROR]: Error registering teacher: Admin not found
+2026-08-12 16:12:33 [ERROR]: Error registering teacher: Teacher already employed
+2026-08-12 16:12:57 [ERROR]: Error creating subject: Program not found
+2026-08-12 16:12:57 [ERROR]: Error creating subject: Subject already exists
+2026-08-12 16:12:58 [ERROR]: Error deleting subject with ID 6a7c553a07d21d423e4ae373: No subject record found for the id provided
+2026-08-12 16:13:10 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:13:12 [ERROR]: Error updating admin with ID 6a7c55476968d44bed7674b1: This email already exists
+2026-08-12 16:13:12 [ERROR]: Error checking exam result with ID 6a7c5548df887fc0c9b7eb84: Exam results not found
+2026-08-12 16:13:20 [ERROR]: Error creating exam: Teacher not found
+2026-08-12 16:13:20 [ERROR]: Error creating exam: Exam already exists!
+2026-08-12 16:13:26 [ERROR]: Error fetching academic term with ID 6a7c5556d01b5544069da85b: No academic term found for the corresponding id provided
+2026-08-12 16:13:29 [ERROR]: Error fetching academic term with ID 6a7c5558d01b5544069da88f: No academic term found for the corresponding id provided
+2026-08-12 16:13:34 [ERROR]: Error creating academic term: Academic term already exists
+2026-08-12 16:13:36 [ERROR]: Error deleting academic term with ID 6a7c55604ec20c2aeb18106e: No academic term record found for the id provided
+2026-08-12 16:13:51 [ERROR]: Error creating academic year: Academic year already exists
+2026-08-12 16:13:51 [ERROR]: Error deleting academic year with ID 6a7c556f86942ba25801986f: No academic year record found for the id provided
+2026-08-12 16:14:04 [ERROR]: Error creating program: Program already exists
+2026-08-12 16:14:05 [ERROR]: Error deleting program with ID 6a7c557de15e1d02e512dc73: No program record found for the id provided
+2026-08-12 16:14:43 [ERROR]: Error creating subject: Program not found
+2026-08-12 16:14:43 [ERROR]: Error creating subject: Subject already exists
+2026-08-12 16:14:44 [ERROR]: Error deleting subject with ID 6a7c55a4802061009a5c9535: No subject record found for the id provided
+2026-08-12 16:14:55 [ERROR]: Error creating exam: Teacher not found
+2026-08-12 16:14:56 [ERROR]: Error creating exam: Exam already exists!
+2026-08-12 16:15:09 [ERROR]: Error creating academic term: Academic term already exists
+2026-08-12 16:15:10 [ERROR]: Error deleting academic term with ID 6a7c55bef852e3bc8f501aa8: No academic term record found for the id provided
+2026-08-12 16:15:20 [ERROR]: Error creating academic year: Academic year already exists
+2026-08-12 16:15:21 [ERROR]: Error deleting academic year with ID 6a7c55c96be60971c888dbde: No academic year record found for the id provided
+2026-08-12 16:15:38 [ERROR]: Error creating program: Program already exists
+2026-08-12 16:15:38 [ERROR]: Error deleting program with ID 6a7c55da17e2304f44f7c9b9: No program record found for the id provided
+2026-08-12 16:16:24 [ERROR]: Error registering teacher: Admin not found
+2026-08-12 16:16:24 [ERROR]: Error registering teacher: Teacher already employed
+2026-08-12 16:16:29 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:16:30 [ERROR]: Error updating admin with ID 6a7c560dfb21e8b7773c5cf4: This email already exists
+2026-08-12 16:18:46 [ERROR]: Error checking exam result with ID 6a7c569619df5ed5d0c2689e: Exam results not found
+2026-08-12 16:18:47 [ERROR]: Error updating exam result with ID 6a7c569719df5ed5d0c268da: Exam result not found
+2026-08-12 16:18:52 [ERROR]: Error fetching academic term with ID 6a7c569cc6ce04561a70f810: No academic term found for the corresponding id provided
+2026-08-12 16:18:53 [ERROR]: Error fetching academic term with ID 6a7c569dc6ce04561a70f848: No academic term found for the corresponding id provided
+2026-08-12 16:18:57 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:18:57 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:20:23 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:20:24 [ERROR]: Error updating admin with ID 6a7c56f81e75c33ec137f25a: This email already exists
+2026-08-12 16:20:32 [ERROR]: Error registering teacher: Admin not found
+2026-08-12 16:20:32 [ERROR]: Error registering teacher: Teacher already employed
+2026-08-12 16:20:59 [ERROR]: Error registering student: Admin not found
+2026-08-12 16:20:59 [ERROR]: Error registering student: Student currently exists
+2026-08-12 16:21:00 [ERROR]: Error updating student by admin with ID 6a7c571c72f5696a6b9bf56c: Student not found
+2026-08-12 16:21:23 [ERROR]: Error registering student: Admin not found
+2026-08-12 16:21:23 [ERROR]: Error registering student: Student currently exists
+2026-08-12 16:21:29 [ERROR]: Error updating student by admin with ID 6a7c5739877d448e612853b1: Student not found
+2026-08-12 16:21:36 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:21:37 [ERROR]: Error updating admin with ID 6a7c574149c5dfbc2eefb035: This email already exists
+2026-08-12 16:21:54 [ERROR]: Error registering student: Admin not found
+2026-08-12 16:21:54 [ERROR]: Error registering student: Student currently exists
+2026-08-12 16:21:57 [ERROR]: Error updating student by admin with ID 6a7c57551db8688d72d3628e: Student not found
+2026-08-12 16:22:01 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:22:03 [ERROR]: Error updating admin with ID 6a7c575b086cbf913d7f5ece: This email already exists
+2026-08-12 16:22:21 [ERROR]: Error registering student: Admin not found
+2026-08-12 16:22:22 [ERROR]: Error registering student: Student currently exists
+2026-08-12 16:22:23 [ERROR]: Error updating student by admin with ID 6a7c576fedf2213ed993daf4: Student not found
+2026-08-12 16:22:27 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:22:29 [ERROR]: Error updating admin with ID 6a7c57753834e96f0844ede5: This email already exists
+2026-08-12 16:22:35 [ERROR]: Error registering teacher: Admin not found
+2026-08-12 16:22:36 [ERROR]: Error registering teacher: Teacher already employed
+2026-08-12 16:23:05 [ERROR]: Error registering teacher: Admin not found
+2026-08-12 16:23:05 [ERROR]: Error registering teacher: Teacher already employed
+2026-08-12 16:23:12 [ERROR]: Error registering student: Admin not found
+2026-08-12 16:23:12 [ERROR]: Error registering student: Student currently exists
+2026-08-12 16:23:14 [ERROR]: Error updating student by admin with ID 6a7c57a2ca23d7bcb82286b1: Student not found
+2026-08-12 16:23:18 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:23:19 [ERROR]: Error updating admin with ID 6a7c57a7bdd475e0f07702ac: This email already exists
+2026-08-12 16:23:59 [ERROR]: Error registering student: Admin not found
+2026-08-12 16:24:00 [ERROR]: Error registering student: Student currently exists
+2026-08-12 16:24:01 [ERROR]: Error updating student by admin with ID 6a7c57d101916cace525f0b8: Student not found
+2026-08-12 16:24:05 [ERROR]: Error registering teacher: Admin not found
+2026-08-12 16:24:05 [ERROR]: Error registering teacher: Teacher already employed
+2026-08-12 16:24:12 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:24:13 [ERROR]: Error updating admin with ID 6a7c57dddb2c73738e27c6e1: This email already exists
+2026-08-12 16:26:31 [ERROR]: Error creating subject: Program not found
+2026-08-12 16:26:31 [ERROR]: Error creating subject: Subject already exists
+2026-08-12 16:26:32 [ERROR]: Error deleting subject with ID 6a7c58689c158f7e43263f4f: No subject record found for the id provided
+2026-08-12 16:26:35 [ERROR]: Error checking exam result with ID 6a7c586b398fcb48aa0ac48a: Exam results not found
+2026-08-12 16:26:36 [ERROR]: Error updating exam result with ID 6a7c586c398fcb48aa0ac4c6: Exam result not found
+2026-08-12 16:26:38 [ERROR]: Error fetching academic term with ID 6a7c586eef4269f3b6e3f1bd: No academic term found for the corresponding id provided
+2026-08-12 16:26:39 [ERROR]: Error fetching academic term with ID 6a7c586fef4269f3b6e3f1f5: No academic term found for the corresponding id provided
+2026-08-12 16:26:41 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:26:41 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:26:44 [ERROR]: Error creating exam: Teacher not found
+2026-08-12 16:26:44 [ERROR]: Error creating exam: Exam already exists!
+2026-08-12 16:26:47 [ERROR]: Error creating academic term: Academic term already exists
+2026-08-12 16:26:49 [ERROR]: Error deleting academic term with ID 6a7c5879c0e716b0f0780bf1: No academic term record found for the id provided
+2026-08-12 16:26:50 [ERROR]: Error creating academic year: Academic year already exists
+2026-08-12 16:26:51 [ERROR]: Error deleting academic year with ID 6a7c587bca400113e2b27205: No academic year record found for the id provided
+2026-08-12 16:26:53 [ERROR]: Error creating program: Program already exists
+2026-08-12 16:26:55 [ERROR]: Error deleting program with ID 6a7c587f64d58c05769c7a1f: No program record found for the id provided
+2026-08-12 16:27:00 [ERROR]: Error registering student: Admin not found
+2026-08-12 16:27:00 [ERROR]: Error registering student: Student currently exists
+2026-08-12 16:27:02 [ERROR]: Error updating student by admin with ID 6a7c58864ffc2d8d0f4ce023: Student not found
+2026-08-12 16:27:04 [ERROR]: Error registering teacher: Admin not found
+2026-08-12 16:27:04 [ERROR]: Error registering teacher: Teacher already employed
+2026-08-12 16:27:08 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:27:11 [ERROR]: Error updating admin with ID 6a7c588f3602181ae4152384: This email already exists

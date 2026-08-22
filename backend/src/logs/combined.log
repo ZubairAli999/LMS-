@@ -1,0 +1,667 @@
+2026-08-12 16:12:32 [INFO]: Teacher created in database with ID: 6a7c5520d14e0cfe38aa0ff0
+2026-08-12 16:12:33 [WARN]: Teacher registration failed, admin not found for id: 6a7c5521d14e0cfe38aa0ff9
+2026-08-12 16:12:33 [ERROR]: Error registering teacher: Admin not found
+2026-08-12 16:12:33 [WARN]: Teacher already employed with email: dupe@test.com
+2026-08-12 16:12:33 [ERROR]: Error registering teacher: Teacher already employed
+2026-08-12 16:12:34 [INFO]: Teacher created in database with ID: 6a7c5522d14e0cfe38aa100d
+2026-08-12 16:12:34 [INFO]: Teacher logged in with ID: 6a7c5522d14e0cfe38aa100d
+2026-08-12 16:12:35 [INFO]: Teacher created in database with ID: 6a7c5523d14e0cfe38aa101a
+2026-08-12 16:12:35 [WARN]: Teacher login failed, password mismatch for email: loginteacher2@test.com
+2026-08-12 16:12:35 [WARN]: Teacher login failed, no user found for email: nobody@test.com
+2026-08-12 16:12:35 [WARN]: No teacher found for the id provided: 6a7c5523d14e0cfe38aa102f
+2026-08-12 16:12:35 [INFO]: Teacher updated by admin with ID: 6a7c5523d14e0cfe38aa1035
+2026-08-12 16:12:35 [WARN]: Admin update teacher failed, teacher not found for id: 6a7c5523d14e0cfe38aa103f
+2026-08-12 16:12:35 [WARN]: Admin update teacher denied, teacher is withdrawn with id: 6a7c5523d14e0cfe38aa1045
+2026-08-12 16:12:55 [INFO]: Program created in database with ID: 6a7c553607d21d423e4ae2ed
+2026-08-12 16:12:56 [INFO]: Subject created in database with ID: 6a7c553707d21d423e4ae2f3
+2026-08-12 16:12:57 [INFO]: Program created in database with ID: 6a7c553807d21d423e4ae304
+2026-08-12 16:12:57 [WARN]: Program not found with ID: 6a7c553907d21d423e4ae308
+2026-08-12 16:12:57 [ERROR]: Error creating subject: Program not found
+2026-08-12 16:12:57 [INFO]: Program created in database with ID: 6a7c553907d21d423e4ae315
+2026-08-12 16:12:57 [INFO]: Subject created in database with ID: 6a7c553907d21d423e4ae31b
+2026-08-12 16:12:57 [WARN]: Subject already exists with name: dup subject
+2026-08-12 16:12:57 [ERROR]: Error creating subject: Subject already exists
+2026-08-12 16:12:58 [INFO]: Program created in database with ID: 6a7c553a07d21d423e4ae32c
+2026-08-12 16:12:58 [INFO]: Subject created in database with ID: 6a7c553a07d21d423e4ae332
+2026-08-12 16:12:58 [INFO]: Program created in database with ID: 6a7c553a07d21d423e4ae34a
+2026-08-12 16:12:58 [INFO]: Subject created in database with ID: 6a7c553a07d21d423e4ae350
+2026-08-12 16:12:58 [INFO]: Subject updated in database with ID: 6a7c553a07d21d423e4ae350
+2026-08-12 16:12:58 [INFO]: Program created in database with ID: 6a7c553a07d21d423e4ae361
+2026-08-12 16:12:58 [INFO]: Subject created in database with ID: 6a7c553a07d21d423e4ae367
+2026-08-12 16:12:58 [INFO]: Subject deleted from database with ID: 6a7c553a07d21d423e4ae367
+2026-08-12 16:12:58 [WARN]: No subject found for deletion with ID: 6a7c553a07d21d423e4ae373
+2026-08-12 16:12:58 [ERROR]: Error deleting subject with ID 6a7c553a07d21d423e4ae373: No subject record found for the id provided
+2026-08-12 16:13:10 [INFO]: Admin created in database with ID: 6a7c55436968d44bed767477
+2026-08-12 16:13:10 [INFO]: Admin created in database with ID: 6a7c55466968d44bed76747f
+2026-08-12 16:13:10 [WARN]: Admin already exists with email: dupe@test.com
+2026-08-12 16:13:10 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:13:10 [INFO]: Admin created in database with ID: 6a7c55466968d44bed767487
+2026-08-12 16:13:11 [INFO]: Admin logged in with ID: 6a7c55466968d44bed767487
+2026-08-12 16:13:11 [INFO]: Admin created in database with ID: 6a7c55476968d44bed76748f
+2026-08-12 16:13:11 [WARN]: Admin login failed, password mismatch for email: login2@test.com
+2026-08-12 16:13:11 [WARN]: Admin login failed, no user found for email: nobody@test.com
+2026-08-12 16:13:11 [WARN]: No admin found for the id provided: 6a7c55476968d44bed7674a2
+2026-08-12 16:13:11 [INFO]: Admin updated in database with ID: 6a7c55476968d44bed7674a8
+2026-08-12 16:13:11 [INFO]: Fetching all exam results
+2026-08-12 16:13:11 [INFO]: Fetched all exam results
+2026-08-12 16:13:12 [WARN]: Student login check failed: token expired/invalid
+2026-08-12 16:13:12 [WARN]: Admin update failed, email already exists: taken@test.com
+2026-08-12 16:13:12 [ERROR]: Error updating admin with ID 6a7c55476968d44bed7674b1: This email already exists
+2026-08-12 16:13:12 [INFO]: Checking exam result ID: 6a7c5548df887fc0c9b7eb84 for student ID: 6a7c5548df887fc0c9b7eb82
+2026-08-12 16:13:12 [WARN]: Exam results not found for result ID: 6a7c5548df887fc0c9b7eb84
+2026-08-12 16:13:12 [ERROR]: Error checking exam result with ID 6a7c5548df887fc0c9b7eb84: Exam results not found
+2026-08-12 16:13:12 [WARN]: Access denied: user undefined is not a student
+2026-08-12 16:13:20 [INFO]: Exam created in database with ID: 6a7c55502ea74de19b078289
+2026-08-12 16:13:20 [WARN]: Teacher not found with ID: 6a7c55502ea74de19b078299
+2026-08-12 16:13:20 [ERROR]: Error creating exam: Teacher not found
+2026-08-12 16:13:20 [INFO]: Exam created in database with ID: 6a7c55502ea74de19b0782a9
+2026-08-12 16:13:20 [WARN]: Exam already exists with name: dup exam
+2026-08-12 16:13:20 [ERROR]: Error creating exam: Exam already exists!
+2026-08-12 16:13:20 [INFO]: Exam created in database with ID: 6a7c55502ea74de19b0782c2
+2026-08-12 16:13:20 [INFO]: Exam created in database with ID: 6a7c55502ea74de19b0782dc
+2026-08-12 16:13:20 [INFO]: Exam updated in database with ID: 6a7c55502ea74de19b0782dc
+2026-08-12 16:13:20 [INFO]: Exam created in database with ID: 6a7c55502ea74de19b0782f5
+2026-08-12 16:13:20 [INFO]: Exam deleted from database with ID: 6a7c55502ea74de19b0782f5
+2026-08-12 16:13:20 [INFO]: Exam deleted from database with ID: 6a7c55502ea74de19b078300
+2026-08-12 16:13:26 [INFO]: Fetching academic term with ID: 6a7c5556d01b5544069da849
+2026-08-12 16:13:26 [INFO]: Academic term fetched successfully with ID: 6a7c5556d01b5544069da849
+2026-08-12 16:13:26 [INFO]: Fetching academic term with ID: 6a7c5556d01b5544069da85b
+2026-08-12 16:13:26 [ERROR]: Error fetching academic term with ID 6a7c5556d01b5544069da85b: No academic term found for the corresponding id provided
+2026-08-12 16:13:27 [INFO]: Fetching all academic terms
+2026-08-12 16:13:29 [INFO]: Deleting academic term with ID: 6a7c5558d01b5544069da88f
+2026-08-12 16:13:29 [INFO]: Academic term deleted from database with ID: 6a7c5558d01b5544069da88f
+2026-08-12 16:13:29 [INFO]: Academic term deleted successfully with ID: 6a7c5558d01b5544069da88f
+2026-08-12 16:13:29 [INFO]: Fetching academic term with ID: 6a7c5558d01b5544069da88f
+2026-08-12 16:13:29 [ERROR]: Error fetching academic term with ID 6a7c5558d01b5544069da88f: No academic term found for the corresponding id provided
+2026-08-12 16:13:34 [INFO]: Academic term created in database with ID: 6a7c555e4ec20c2aeb181035
+2026-08-12 16:13:34 [INFO]: Academic term created in database with ID: 6a7c555e4ec20c2aeb181042
+2026-08-12 16:13:34 [WARN]: Academic term already exists with name: dup term
+2026-08-12 16:13:34 [ERROR]: Error creating academic term: Academic term already exists
+2026-08-12 16:13:35 [INFO]: Academic term updated in database with ID: 6a7c555f4ec20c2aeb18105c
+2026-08-12 16:13:36 [INFO]: Academic term deleted from database with ID: 6a7c555f4ec20c2aeb181066
+2026-08-12 16:13:36 [WARN]: No academic term found for deletion with ID: 6a7c55604ec20c2aeb18106e
+2026-08-12 16:13:36 [ERROR]: Error deleting academic term with ID 6a7c55604ec20c2aeb18106e: No academic term record found for the id provided
+2026-08-12 16:13:50 [INFO]: Academic year created in database with ID: 6a7c556e86942ba258019827
+2026-08-12 16:13:51 [INFO]: Academic year created in database with ID: 6a7c556f86942ba258019835
+2026-08-12 16:13:51 [WARN]: Academic year already exists with name: dup year
+2026-08-12 16:13:51 [ERROR]: Error creating academic year: Academic year already exists
+2026-08-12 16:13:51 [INFO]: Academic year created in database with ID: 6a7c556f86942ba258019842
+2026-08-12 16:13:51 [INFO]: Academic year created in database with ID: 6a7c556f86942ba258019856
+2026-08-12 16:13:51 [INFO]: Academic year updated in database with ID: 6a7c556f86942ba258019856
+2026-08-12 16:13:51 [INFO]: Academic year created in database with ID: 6a7c556f86942ba258019864
+2026-08-12 16:13:51 [INFO]: Academic year deleted from database with ID: 6a7c556f86942ba258019864
+2026-08-12 16:13:51 [WARN]: No academic year found for deletion with ID: 6a7c556f86942ba25801986f
+2026-08-12 16:13:51 [ERROR]: Error deleting academic year with ID 6a7c556f86942ba25801986f: No academic year record found for the id provided
+2026-08-12 16:13:52 [INFO]: Fetching admin profile for ID: 6a7c5570456d82d2a339f384
+2026-08-12 16:13:52 [INFO]: Admin profile fetched successfully for ID: 6a7c5570456d82d2a339f384
+2026-08-12 16:13:53 [WARN]: Authentication failed: token expired/invalid
+2026-08-12 16:14:04 [INFO]: Program created in database with ID: 6a7c557ce15e1d02e512dc2b
+2026-08-12 16:14:04 [INFO]: Program created in database with ID: 6a7c557ce15e1d02e512dc39
+2026-08-12 16:14:04 [WARN]: Program already exists with name: dup prog
+2026-08-12 16:14:04 [ERROR]: Error creating program: Program already exists
+2026-08-12 16:14:04 [INFO]: Program created in database with ID: 6a7c557ce15e1d02e512dc46
+2026-08-12 16:14:05 [INFO]: Program created in database with ID: 6a7c557de15e1d02e512dc5a
+2026-08-12 16:14:05 [INFO]: Program updated in database with ID: 6a7c557de15e1d02e512dc5a
+2026-08-12 16:14:05 [INFO]: Program created in database with ID: 6a7c557de15e1d02e512dc68
+2026-08-12 16:14:05 [INFO]: Program deleted from database with ID: 6a7c557de15e1d02e512dc68
+2026-08-12 16:14:05 [WARN]: No program found for deletion with ID: 6a7c557de15e1d02e512dc73
+2026-08-12 16:14:05 [ERROR]: Error deleting program with ID 6a7c557de15e1d02e512dc73: No program record found for the id provided
+2026-08-12 16:14:43 [INFO]: Program created in database with ID: 6a7c55a3802061009a5c94af
+2026-08-12 16:14:43 [INFO]: Subject created in database with ID: 6a7c55a3802061009a5c94b5
+2026-08-12 16:14:43 [INFO]: Program created in database with ID: 6a7c55a3802061009a5c94c6
+2026-08-12 16:14:43 [WARN]: Program not found with ID: 6a7c55a3802061009a5c94ca
+2026-08-12 16:14:43 [ERROR]: Error creating subject: Program not found
+2026-08-12 16:14:43 [INFO]: Program created in database with ID: 6a7c55a3802061009a5c94d7
+2026-08-12 16:14:43 [INFO]: Subject created in database with ID: 6a7c55a3802061009a5c94dd
+2026-08-12 16:14:43 [WARN]: Subject already exists with name: dup subject
+2026-08-12 16:14:43 [ERROR]: Error creating subject: Subject already exists
+2026-08-12 16:14:44 [INFO]: Program created in database with ID: 6a7c55a4802061009a5c94ee
+2026-08-12 16:14:44 [INFO]: Subject created in database with ID: 6a7c55a4802061009a5c94f4
+2026-08-12 16:14:44 [INFO]: Program created in database with ID: 6a7c55a4802061009a5c950c
+2026-08-12 16:14:44 [INFO]: Subject created in database with ID: 6a7c55a4802061009a5c9512
+2026-08-12 16:14:44 [INFO]: Subject updated in database with ID: 6a7c55a4802061009a5c9512
+2026-08-12 16:14:44 [INFO]: Program created in database with ID: 6a7c55a4802061009a5c9523
+2026-08-12 16:14:44 [INFO]: Subject created in database with ID: 6a7c55a4802061009a5c9529
+2026-08-12 16:14:44 [INFO]: Subject deleted from database with ID: 6a7c55a4802061009a5c9529
+2026-08-12 16:14:44 [WARN]: No subject found for deletion with ID: 6a7c55a4802061009a5c9535
+2026-08-12 16:14:44 [ERROR]: Error deleting subject with ID 6a7c55a4802061009a5c9535: No subject record found for the id provided
+2026-08-12 16:14:55 [INFO]: Exam created in database with ID: 6a7c55afd096fe713e00611c
+2026-08-12 16:14:55 [WARN]: Teacher not found with ID: 6a7c55afd096fe713e00612c
+2026-08-12 16:14:55 [ERROR]: Error creating exam: Teacher not found
+2026-08-12 16:14:56 [INFO]: Exam created in database with ID: 6a7c55b0d096fe713e00613c
+2026-08-12 16:14:56 [WARN]: Exam already exists with name: dup exam
+2026-08-12 16:14:56 [ERROR]: Error creating exam: Exam already exists!
+2026-08-12 16:14:57 [INFO]: Exam created in database with ID: 6a7c55b1d096fe713e006155
+2026-08-12 16:14:57 [INFO]: Exam created in database with ID: 6a7c55b1d096fe713e00616f
+2026-08-12 16:14:57 [INFO]: Exam updated in database with ID: 6a7c55b1d096fe713e00616f
+2026-08-12 16:14:58 [INFO]: Exam created in database with ID: 6a7c55b2d096fe713e006188
+2026-08-12 16:14:58 [INFO]: Exam deleted from database with ID: 6a7c55b2d096fe713e006188
+2026-08-12 16:14:58 [INFO]: Exam deleted from database with ID: 6a7c55b2d096fe713e006193
+2026-08-12 16:15:09 [INFO]: Academic term created in database with ID: 6a7c55bdf852e3bc8f501a6f
+2026-08-12 16:15:09 [INFO]: Academic term created in database with ID: 6a7c55bdf852e3bc8f501a7c
+2026-08-12 16:15:09 [WARN]: Academic term already exists with name: dup term
+2026-08-12 16:15:09 [ERROR]: Error creating academic term: Academic term already exists
+2026-08-12 16:15:10 [INFO]: Academic term updated in database with ID: 6a7c55bef852e3bc8f501a96
+2026-08-12 16:15:10 [INFO]: Academic term deleted from database with ID: 6a7c55bef852e3bc8f501aa0
+2026-08-12 16:15:10 [WARN]: No academic term found for deletion with ID: 6a7c55bef852e3bc8f501aa8
+2026-08-12 16:15:10 [ERROR]: Error deleting academic term with ID 6a7c55bef852e3bc8f501aa8: No academic term record found for the id provided
+2026-08-12 16:15:20 [INFO]: Academic year created in database with ID: 6a7c55c86be60971c888db96
+2026-08-12 16:15:20 [INFO]: Academic year created in database with ID: 6a7c55c86be60971c888dba4
+2026-08-12 16:15:20 [WARN]: Academic year already exists with name: dup year
+2026-08-12 16:15:20 [ERROR]: Error creating academic year: Academic year already exists
+2026-08-12 16:15:21 [INFO]: Academic year created in database with ID: 6a7c55c96be60971c888dbb1
+2026-08-12 16:15:21 [INFO]: Academic year created in database with ID: 6a7c55c96be60971c888dbc5
+2026-08-12 16:15:21 [INFO]: Academic year updated in database with ID: 6a7c55c96be60971c888dbc5
+2026-08-12 16:15:21 [INFO]: Academic year created in database with ID: 6a7c55c96be60971c888dbd3
+2026-08-12 16:15:21 [INFO]: Academic year deleted from database with ID: 6a7c55c96be60971c888dbd3
+2026-08-12 16:15:21 [WARN]: No academic year found for deletion with ID: 6a7c55c96be60971c888dbde
+2026-08-12 16:15:21 [ERROR]: Error deleting academic year with ID 6a7c55c96be60971c888dbde: No academic year record found for the id provided
+2026-08-12 16:15:37 [INFO]: Program created in database with ID: 6a7c55d917e2304f44f7c971
+2026-08-12 16:15:38 [INFO]: Program created in database with ID: 6a7c55da17e2304f44f7c97f
+2026-08-12 16:15:38 [WARN]: Program already exists with name: dup prog
+2026-08-12 16:15:38 [ERROR]: Error creating program: Program already exists
+2026-08-12 16:15:38 [INFO]: Program created in database with ID: 6a7c55da17e2304f44f7c98c
+2026-08-12 16:15:38 [INFO]: Program created in database with ID: 6a7c55da17e2304f44f7c9a0
+2026-08-12 16:15:38 [INFO]: Program updated in database with ID: 6a7c55da17e2304f44f7c9a0
+2026-08-12 16:15:38 [INFO]: Program created in database with ID: 6a7c55da17e2304f44f7c9ae
+2026-08-12 16:15:38 [INFO]: Program deleted from database with ID: 6a7c55da17e2304f44f7c9ae
+2026-08-12 16:15:38 [WARN]: No program found for deletion with ID: 6a7c55da17e2304f44f7c9b9
+2026-08-12 16:15:38 [ERROR]: Error deleting program with ID 6a7c55da17e2304f44f7c9b9: No program record found for the id provided
+2026-08-12 16:16:24 [INFO]: Teacher created in database with ID: 6a7c5608d617e9ff97dc89aa
+2026-08-12 16:16:24 [WARN]: Teacher registration failed, admin not found for id: 6a7c5608d617e9ff97dc89b3
+2026-08-12 16:16:24 [ERROR]: Error registering teacher: Admin not found
+2026-08-12 16:16:24 [WARN]: Teacher already employed with email: dupe@test.com
+2026-08-12 16:16:24 [ERROR]: Error registering teacher: Teacher already employed
+2026-08-12 16:16:24 [INFO]: Teacher created in database with ID: 6a7c5608d617e9ff97dc89c7
+2026-08-12 16:16:24 [INFO]: Teacher logged in with ID: 6a7c5608d617e9ff97dc89c7
+2026-08-12 16:16:25 [INFO]: Teacher created in database with ID: 6a7c5609d617e9ff97dc89d4
+2026-08-12 16:16:25 [WARN]: Teacher login failed, password mismatch for email: loginteacher2@test.com
+2026-08-12 16:16:25 [WARN]: Teacher login failed, no user found for email: nobody@test.com
+2026-08-12 16:16:25 [WARN]: No teacher found for the id provided: 6a7c5609d617e9ff97dc89e9
+2026-08-12 16:16:25 [INFO]: Teacher updated by admin with ID: 6a7c5609d617e9ff97dc89ef
+2026-08-12 16:16:25 [WARN]: Admin update teacher failed, teacher not found for id: 6a7c5609d617e9ff97dc89f9
+2026-08-12 16:16:25 [WARN]: Admin update teacher denied, teacher is withdrawn with id: 6a7c5609d617e9ff97dc89ff
+2026-08-12 16:16:28 [INFO]: Admin created in database with ID: 6a7c560cfb21e8b7773c5cba
+2026-08-12 16:16:29 [INFO]: Admin created in database with ID: 6a7c560dfb21e8b7773c5cc2
+2026-08-12 16:16:29 [WARN]: Admin already exists with email: dupe@test.com
+2026-08-12 16:16:29 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:16:29 [INFO]: Admin created in database with ID: 6a7c560dfb21e8b7773c5cca
+2026-08-12 16:16:29 [INFO]: Admin logged in with ID: 6a7c560dfb21e8b7773c5cca
+2026-08-12 16:16:29 [INFO]: Admin created in database with ID: 6a7c560dfb21e8b7773c5cd2
+2026-08-12 16:16:29 [WARN]: Admin login failed, password mismatch for email: login2@test.com
+2026-08-12 16:16:29 [WARN]: Admin login failed, no user found for email: nobody@test.com
+2026-08-12 16:16:29 [WARN]: No admin found for the id provided: 6a7c560dfb21e8b7773c5ce5
+2026-08-12 16:16:29 [INFO]: Admin updated in database with ID: 6a7c560dfb21e8b7773c5ceb
+2026-08-12 16:16:30 [WARN]: Admin update failed, email already exists: taken@test.com
+2026-08-12 16:16:30 [ERROR]: Error updating admin with ID 6a7c560dfb21e8b7773c5cf4: This email already exists
+2026-08-12 16:16:32 [WARN]: Role restriction hit: role 'student' not in [admin]
+2026-08-12 16:16:32 [WARN]: Role restriction hit: role 'undefined' not in [admin]
+2026-08-12 16:16:39 [WARN]: Authentication failed: token expired/invalid
+2026-08-12 16:16:45 [WARN]: Access denied: user 6a7c561d91931ab42ba5c3d1 is not an admin
+2026-08-12 16:18:46 [INFO]: Fetching all exam results
+2026-08-12 16:18:46 [INFO]: Fetched all exam results
+2026-08-12 16:18:46 [WARN]: Student login check failed: token expired/invalid
+2026-08-12 16:18:46 [INFO]: Checking exam result ID: 6a7c569619df5ed5d0c2689e for student ID: 6a7c569619df5ed5d0c2689c
+2026-08-12 16:18:46 [WARN]: Exam results not found for result ID: 6a7c569619df5ed5d0c2689e
+2026-08-12 16:18:46 [ERROR]: Error checking exam result with ID 6a7c569619df5ed5d0c2689e: Exam results not found
+2026-08-12 16:18:46 [WARN]: Access denied: user undefined is not a student
+2026-08-12 16:18:47 [INFO]: Toggling publish state for exam result ID: 6a7c569619df5ed5d0c268c5
+2026-08-12 16:18:47 [INFO]: Exam result publish state updated for ID: 6a7c569619df5ed5d0c268c5
+2026-08-12 16:18:47 [INFO]: Exam result publish state updated for ID: 6a7c569619df5ed5d0c268c5
+2026-08-12 16:18:47 [INFO]: Toggling publish state for exam result ID: 6a7c569719df5ed5d0c268da
+2026-08-12 16:18:47 [WARN]: Exam result not found with ID: 6a7c569719df5ed5d0c268da
+2026-08-12 16:18:47 [ERROR]: Error updating exam result with ID 6a7c569719df5ed5d0c268da: Exam result not found
+2026-08-12 16:18:48 [WARN]: Access denied: user undefined is not an admin
+2026-08-12 16:18:52 [INFO]: Creating academic term for admin ID: 6a7c569ac6ce04561a70f7db, data: {"name":"Winter term","description":"Cold season","duration":"3 months"}
+2026-08-12 16:18:52 [INFO]: Academic term created in database with ID: 6a7c569cc6ce04561a70f7df
+2026-08-12 16:18:52 [INFO]: Academic term created successfully with ID: 6a7c569cc6ce04561a70f7df
+2026-08-12 16:18:52 [WARN]: Authentication failed: token expired/invalid
+2026-08-12 16:18:52 [INFO]: Fetching academic term with ID: 6a7c569cc6ce04561a70f7fe
+2026-08-12 16:18:52 [INFO]: Academic term fetched successfully with ID: 6a7c569cc6ce04561a70f7fe
+2026-08-12 16:18:52 [INFO]: Fetching academic term with ID: 6a7c569cc6ce04561a70f810
+2026-08-12 16:18:52 [ERROR]: Error fetching academic term with ID 6a7c569cc6ce04561a70f810: No academic term found for the corresponding id provided
+2026-08-12 16:18:52 [INFO]: Fetching all academic terms
+2026-08-12 16:18:52 [INFO]: Updating academic term with ID: 6a7c569cc6ce04561a70f834, data: {"name":"New name","description":"updated","duration":"4 months"}
+2026-08-12 16:18:52 [INFO]: Academic term updated in database with ID: 6a7c569cc6ce04561a70f834
+2026-08-12 16:18:52 [INFO]: Academic term updated successfully with ID: 6a7c569cc6ce04561a70f834
+2026-08-12 16:18:53 [INFO]: Deleting academic term with ID: 6a7c569dc6ce04561a70f848
+2026-08-12 16:18:53 [INFO]: Academic term deleted from database with ID: 6a7c569dc6ce04561a70f848
+2026-08-12 16:18:53 [INFO]: Academic term deleted successfully with ID: 6a7c569dc6ce04561a70f848
+2026-08-12 16:18:53 [INFO]: Fetching academic term with ID: 6a7c569dc6ce04561a70f848
+2026-08-12 16:18:53 [ERROR]: Error fetching academic term with ID 6a7c569dc6ce04561a70f848: No academic term found for the corresponding id provided
+2026-08-12 16:18:55 [INFO]: Registering admin with data: {"name":"Reg Admin","email":"reg@test.com","password":"password123"}
+2026-08-12 16:18:56 [INFO]: Admin created in database with ID: 6a7c56a0a2052f30c9c21353
+2026-08-12 16:18:56 [INFO]: Admin registered successfully with ID: 6a7c56a0a2052f30c9c21353
+2026-08-12 16:18:57 [INFO]: Registering admin with data: {"name":"Dup Admin","email":"dup@test.com","password":"password123"}
+2026-08-12 16:18:57 [WARN]: Admin already exists with email: dup@test.com
+2026-08-12 16:18:57 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:18:57 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:18:57 [INFO]: Admin login attempt for email: login@test.com
+2026-08-12 16:18:57 [INFO]: Admin logged in with ID: 6a7c56a1a2052f30c9c21371
+2026-08-12 16:18:57 [INFO]: Admin logged in successfully for email: login@test.com
+2026-08-12 16:18:58 [INFO]: Admin login attempt for email: wrongpw@test.com
+2026-08-12 16:18:58 [WARN]: Admin login failed, password mismatch for email: wrongpw@test.com
+2026-08-12 16:18:58 [INFO]: Fetching admin profile for ID: 6a7c56a2a2052f30c9c2138f
+2026-08-12 16:18:58 [INFO]: Admin profile fetched successfully for ID: 6a7c56a2a2052f30c9c2138f
+2026-08-12 16:18:58 [WARN]: Authentication failed: token expired/invalid
+2026-08-12 16:20:22 [INFO]: Admin created in database with ID: 6a7c56f61e75c33ec137f200
+2026-08-12 16:20:23 [INFO]: Admin created in database with ID: 6a7c56f71e75c33ec137f20c
+2026-08-12 16:20:23 [WARN]: Admin already exists with email: dupe@test.com
+2026-08-12 16:20:23 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:20:23 [INFO]: Admin created in database with ID: 6a7c56f71e75c33ec137f218
+2026-08-12 16:20:23 [INFO]: Admin logged in with ID: 6a7c56f71e75c33ec137f218
+2026-08-12 16:20:23 [INFO]: Admin created in database with ID: 6a7c56f71e75c33ec137f224
+2026-08-12 16:20:23 [WARN]: Admin login failed, password mismatch for email: login2@test.com
+2026-08-12 16:20:23 [WARN]: Admin login failed, no user found for email: nobody@test.com
+2026-08-12 16:20:24 [WARN]: No admin found for the id provided: 6a7c56f81e75c33ec137f243
+2026-08-12 16:20:24 [INFO]: Admin updated in database with ID: 6a7c56f81e75c33ec137f24d
+2026-08-12 16:20:24 [WARN]: Admin update failed, email already exists: taken@test.com
+2026-08-12 16:20:24 [ERROR]: Error updating admin with ID 6a7c56f81e75c33ec137f25a: This email already exists
+2026-08-12 16:20:29 [WARN]: Authentication failed: token expired/invalid
+2026-08-12 16:20:32 [INFO]: Teacher created in database with ID: 6a7c57006b39743414356e3e
+2026-08-12 16:20:32 [WARN]: Teacher registration failed, admin not found for id: 6a7c57006b39743414356e47
+2026-08-12 16:20:32 [ERROR]: Error registering teacher: Admin not found
+2026-08-12 16:20:32 [WARN]: Teacher already employed with email: dupe@test.com
+2026-08-12 16:20:32 [ERROR]: Error registering teacher: Teacher already employed
+2026-08-12 16:20:33 [INFO]: Teacher created in database with ID: 6a7c57016b39743414356e5b
+2026-08-12 16:20:33 [INFO]: Teacher logged in with ID: 6a7c57016b39743414356e5b
+2026-08-12 16:20:33 [INFO]: Teacher created in database with ID: 6a7c57016b39743414356e68
+2026-08-12 16:20:33 [WARN]: Teacher login failed, password mismatch for email: loginteacher2@test.com
+2026-08-12 16:20:33 [WARN]: Teacher login failed, no user found for email: nobody@test.com
+2026-08-12 16:20:33 [WARN]: No teacher found for the id provided: 6a7c57016b39743414356e7d
+2026-08-12 16:20:34 [INFO]: Teacher updated by admin with ID: 6a7c57026b39743414356e83
+2026-08-12 16:20:34 [WARN]: Admin update teacher failed, teacher not found for id: 6a7c57026b39743414356e8d
+2026-08-12 16:20:34 [WARN]: Admin update teacher denied, teacher is withdrawn with id: 6a7c57026b39743414356e93
+2026-08-12 16:20:38 [WARN]: Access denied: user 6a7c5706df78ef30dd965a76 is not an admin
+2026-08-12 16:20:40 [WARN]: Role restriction hit: role 'student' not in [admin]
+2026-08-12 16:20:40 [WARN]: Role restriction hit: role 'undefined' not in [admin]
+2026-08-12 16:20:59 [INFO]: Student registered in database with ID: 6a7c571b72f5696a6b9bf4fb
+2026-08-12 16:20:59 [WARN]: Admin not found with ID: 6a7c571b72f5696a6b9bf506
+2026-08-12 16:20:59 [ERROR]: Error registering student: Admin not found
+2026-08-12 16:20:59 [WARN]: Student currently exists with email: dupe@test.com
+2026-08-12 16:20:59 [ERROR]: Error registering student: Student currently exists
+2026-08-12 16:20:59 [INFO]: Student registered in database with ID: 6a7c571b72f5696a6b9bf51e
+2026-08-12 16:20:59 [INFO]: Student logged in with ID: 6a7c571b72f5696a6b9bf51e
+2026-08-12 16:21:00 [INFO]: Student registered in database with ID: 6a7c571c72f5696a6b9bf52d
+2026-08-12 16:21:00 [WARN]: Invalid login credentials for email: loginstudent2@test.com
+2026-08-12 16:21:00 [WARN]: Invalid login credentials for email: nobody@test.com
+2026-08-12 16:21:00 [INFO]: Student profile fetched for ID: 6a7c571c72f5696a6b9bf53f
+2026-08-12 16:21:00 [WARN]: Student not found with ID: 6a7c571c72f5696a6b9bf548
+2026-08-12 16:21:00 [INFO]: Student fetched by admin with ID: 6a7c571c72f5696a6b9bf550
+2026-08-12 16:21:00 [WARN]: Student not found with ID: 6a7c571c72f5696a6b9bf559
+2026-08-12 16:21:00 [INFO]: Student updated by admin with ID: 6a7c571c72f5696a6b9bf561
+2026-08-12 16:21:00 [WARN]: Student not found with ID: 6a7c571c72f5696a6b9bf56c
+2026-08-12 16:21:00 [ERROR]: Error updating student by admin with ID 6a7c571c72f5696a6b9bf56c: Student not found
+2026-08-12 16:21:00 [WARN]: Student not found with ID: 6a7c571c72f5696a6b9bf574
+2026-08-12 16:21:00 [WARN]: Exam not found with ID: 6a7c571c72f5696a6b9bf57f
+2026-08-12 16:21:23 [INFO]: Student registered in database with ID: 6a7c5733877d448e61285340
+2026-08-12 16:21:23 [WARN]: Admin not found with ID: 6a7c5733877d448e6128534b
+2026-08-12 16:21:23 [ERROR]: Error registering student: Admin not found
+2026-08-12 16:21:23 [WARN]: Student currently exists with email: dupe@test.com
+2026-08-12 16:21:23 [ERROR]: Error registering student: Student currently exists
+2026-08-12 16:21:24 [INFO]: Student registered in database with ID: 6a7c5734877d448e61285363
+2026-08-12 16:21:25 [INFO]: Student logged in with ID: 6a7c5734877d448e61285363
+2026-08-12 16:21:27 [INFO]: Student registered in database with ID: 6a7c5737877d448e61285372
+2026-08-12 16:21:27 [WARN]: Invalid login credentials for email: loginstudent2@test.com
+2026-08-12 16:21:27 [WARN]: Invalid login credentials for email: nobody@test.com
+2026-08-12 16:21:28 [INFO]: Student profile fetched for ID: 6a7c5738877d448e61285384
+2026-08-12 16:21:28 [WARN]: Student not found with ID: 6a7c5738877d448e6128538d
+2026-08-12 16:21:28 [INFO]: Student fetched by admin with ID: 6a7c5738877d448e61285395
+2026-08-12 16:21:28 [WARN]: Student not found with ID: 6a7c5738877d448e6128539e
+2026-08-12 16:21:29 [INFO]: Student updated by admin with ID: 6a7c5739877d448e612853a6
+2026-08-12 16:21:29 [WARN]: Student not found with ID: 6a7c5739877d448e612853b1
+2026-08-12 16:21:29 [ERROR]: Error updating student by admin with ID 6a7c5739877d448e612853b1: Student not found
+2026-08-12 16:21:29 [WARN]: Student not found with ID: 6a7c5739877d448e612853b9
+2026-08-12 16:21:29 [WARN]: Exam not found with ID: 6a7c5739877d448e612853c4
+2026-08-12 16:21:35 [INFO]: Admin created in database with ID: 6a7c573f49c5dfbc2eefafdb
+2026-08-12 16:21:36 [INFO]: Admin created in database with ID: 6a7c574049c5dfbc2eefafe7
+2026-08-12 16:21:36 [WARN]: Admin already exists with email: dupe@test.com
+2026-08-12 16:21:36 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:21:36 [INFO]: Admin created in database with ID: 6a7c574049c5dfbc2eefaff3
+2026-08-12 16:21:36 [INFO]: Admin logged in with ID: 6a7c574049c5dfbc2eefaff3
+2026-08-12 16:21:36 [INFO]: Admin created in database with ID: 6a7c574049c5dfbc2eefafff
+2026-08-12 16:21:37 [WARN]: Admin login failed, password mismatch for email: login2@test.com
+2026-08-12 16:21:37 [WARN]: Admin login failed, no user found for email: nobody@test.com
+2026-08-12 16:21:37 [WARN]: No admin found for the id provided: 6a7c574149c5dfbc2eefb01e
+2026-08-12 16:21:37 [INFO]: Admin updated in database with ID: 6a7c574149c5dfbc2eefb028
+2026-08-12 16:21:37 [WARN]: Admin update failed, email already exists: taken@test.com
+2026-08-12 16:21:37 [ERROR]: Error updating admin with ID 6a7c574149c5dfbc2eefb035: This email already exists
+2026-08-12 16:21:54 [INFO]: Student registered in database with ID: 6a7c57521db8688d72d3621d
+2026-08-12 16:21:54 [WARN]: Admin not found with ID: 6a7c57521db8688d72d36228
+2026-08-12 16:21:54 [ERROR]: Error registering student: Admin not found
+2026-08-12 16:21:54 [WARN]: Student currently exists with email: dupe@test.com
+2026-08-12 16:21:54 [ERROR]: Error registering student: Student currently exists
+2026-08-12 16:21:55 [INFO]: Student registered in database with ID: 6a7c57531db8688d72d36240
+2026-08-12 16:21:55 [INFO]: Student logged in with ID: 6a7c57531db8688d72d36240
+2026-08-12 16:21:56 [INFO]: Student registered in database with ID: 6a7c57541db8688d72d3624f
+2026-08-12 16:21:56 [WARN]: Invalid login credentials for email: loginstudent2@test.com
+2026-08-12 16:21:56 [WARN]: Invalid login credentials for email: nobody@test.com
+2026-08-12 16:21:56 [INFO]: Student profile fetched for ID: 6a7c57541db8688d72d36261
+2026-08-12 16:21:56 [WARN]: Student not found with ID: 6a7c57541db8688d72d3626a
+2026-08-12 16:21:57 [INFO]: Student fetched by admin with ID: 6a7c57551db8688d72d36272
+2026-08-12 16:21:57 [WARN]: Student not found with ID: 6a7c57551db8688d72d3627b
+2026-08-12 16:21:57 [INFO]: Student updated by admin with ID: 6a7c57551db8688d72d36283
+2026-08-12 16:21:57 [WARN]: Student not found with ID: 6a7c57551db8688d72d3628e
+2026-08-12 16:21:57 [ERROR]: Error updating student by admin with ID 6a7c57551db8688d72d3628e: Student not found
+2026-08-12 16:21:57 [WARN]: Student not found with ID: 6a7c57551db8688d72d36296
+2026-08-12 16:21:57 [WARN]: Exam not found with ID: 6a7c57551db8688d72d362a1
+2026-08-12 16:22:01 [INFO]: Admin created in database with ID: 6a7c5758086cbf913d7f5e74
+2026-08-12 16:22:01 [INFO]: Admin created in database with ID: 6a7c5759086cbf913d7f5e80
+2026-08-12 16:22:01 [WARN]: Admin already exists with email: dupe@test.com
+2026-08-12 16:22:01 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:22:01 [INFO]: Admin created in database with ID: 6a7c5759086cbf913d7f5e8c
+2026-08-12 16:22:02 [INFO]: Admin logged in with ID: 6a7c5759086cbf913d7f5e8c
+2026-08-12 16:22:02 [INFO]: Admin created in database with ID: 6a7c575a086cbf913d7f5e98
+2026-08-12 16:22:02 [WARN]: Admin login failed, password mismatch for email: login2@test.com
+2026-08-12 16:22:02 [WARN]: Admin login failed, no user found for email: nobody@test.com
+2026-08-12 16:22:02 [WARN]: No admin found for the id provided: 6a7c575a086cbf913d7f5eb7
+2026-08-12 16:22:02 [INFO]: Admin updated in database with ID: 6a7c575a086cbf913d7f5ec1
+2026-08-12 16:22:03 [WARN]: Admin update failed, email already exists: taken@test.com
+2026-08-12 16:22:03 [ERROR]: Error updating admin with ID 6a7c575b086cbf913d7f5ece: This email already exists
+2026-08-12 16:22:21 [INFO]: Student registered in database with ID: 6a7c576dedf2213ed993da83
+2026-08-12 16:22:21 [WARN]: Admin not found with ID: 6a7c576dedf2213ed993da8e
+2026-08-12 16:22:21 [ERROR]: Error registering student: Admin not found
+2026-08-12 16:22:22 [WARN]: Student currently exists with email: dupe@test.com
+2026-08-12 16:22:22 [ERROR]: Error registering student: Student currently exists
+2026-08-12 16:22:22 [INFO]: Student registered in database with ID: 6a7c576eedf2213ed993daa6
+2026-08-12 16:22:22 [INFO]: Student logged in with ID: 6a7c576eedf2213ed993daa6
+2026-08-12 16:22:22 [INFO]: Student registered in database with ID: 6a7c576eedf2213ed993dab5
+2026-08-12 16:22:22 [WARN]: Invalid login credentials for email: loginstudent2@test.com
+2026-08-12 16:22:22 [WARN]: Invalid login credentials for email: nobody@test.com
+2026-08-12 16:22:23 [INFO]: Student profile fetched for ID: 6a7c576fedf2213ed993dac7
+2026-08-12 16:22:23 [WARN]: Student not found with ID: 6a7c576fedf2213ed993dad0
+2026-08-12 16:22:23 [INFO]: Student fetched by admin with ID: 6a7c576fedf2213ed993dad8
+2026-08-12 16:22:23 [WARN]: Student not found with ID: 6a7c576fedf2213ed993dae1
+2026-08-12 16:22:23 [INFO]: Student updated by admin with ID: 6a7c576fedf2213ed993dae9
+2026-08-12 16:22:23 [WARN]: Student not found with ID: 6a7c576fedf2213ed993daf4
+2026-08-12 16:22:23 [ERROR]: Error updating student by admin with ID 6a7c576fedf2213ed993daf4: Student not found
+2026-08-12 16:22:23 [WARN]: Student not found with ID: 6a7c576fedf2213ed993dafc
+2026-08-12 16:22:23 [WARN]: Exam not found with ID: 6a7c576fedf2213ed993db07
+2026-08-12 16:22:27 [INFO]: Admin created in database with ID: 6a7c57723834e96f0844ed8b
+2026-08-12 16:22:27 [INFO]: Admin created in database with ID: 6a7c57733834e96f0844ed97
+2026-08-12 16:22:27 [WARN]: Admin already exists with email: dupe@test.com
+2026-08-12 16:22:27 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:22:27 [INFO]: Admin created in database with ID: 6a7c57733834e96f0844eda3
+2026-08-12 16:22:28 [INFO]: Admin logged in with ID: 6a7c57733834e96f0844eda3
+2026-08-12 16:22:28 [INFO]: Admin created in database with ID: 6a7c57743834e96f0844edaf
+2026-08-12 16:22:28 [WARN]: Admin login failed, password mismatch for email: login2@test.com
+2026-08-12 16:22:28 [WARN]: Admin login failed, no user found for email: nobody@test.com
+2026-08-12 16:22:28 [WARN]: No admin found for the id provided: 6a7c57743834e96f0844edce
+2026-08-12 16:22:28 [INFO]: Admin updated in database with ID: 6a7c57743834e96f0844edd8
+2026-08-12 16:22:29 [WARN]: Admin update failed, email already exists: taken@test.com
+2026-08-12 16:22:29 [ERROR]: Error updating admin with ID 6a7c57753834e96f0844ede5: This email already exists
+2026-08-12 16:22:35 [INFO]: Teacher created in database with ID: 6a7c577b4291f5ffd2765940
+2026-08-12 16:22:35 [WARN]: Teacher registration failed, admin not found for id: 6a7c577b4291f5ffd2765949
+2026-08-12 16:22:35 [ERROR]: Error registering teacher: Admin not found
+2026-08-12 16:22:36 [WARN]: Teacher already employed with email: dupe@test.com
+2026-08-12 16:22:36 [ERROR]: Error registering teacher: Teacher already employed
+2026-08-12 16:22:36 [INFO]: Teacher created in database with ID: 6a7c577c4291f5ffd276595d
+2026-08-12 16:22:36 [INFO]: Teacher logged in with ID: 6a7c577c4291f5ffd276595d
+2026-08-12 16:22:37 [INFO]: Teacher created in database with ID: 6a7c577d4291f5ffd276596a
+2026-08-12 16:22:37 [WARN]: Teacher login failed, password mismatch for email: loginteacher2@test.com
+2026-08-12 16:22:37 [WARN]: Teacher login failed, no user found for email: nobody@test.com
+2026-08-12 16:22:37 [WARN]: No teacher found for the id provided: 6a7c577d4291f5ffd276597f
+2026-08-12 16:22:37 [INFO]: Teacher updated by admin with ID: 6a7c577d4291f5ffd2765985
+2026-08-12 16:22:37 [WARN]: Admin update teacher failed, teacher not found for id: 6a7c577d4291f5ffd276598f
+2026-08-12 16:22:38 [WARN]: Admin update teacher denied, teacher is withdrawn with id: 6a7c577e4291f5ffd2765995
+2026-08-12 16:22:41 [WARN]: Authentication failed: token expired/invalid
+2026-08-12 16:22:46 [WARN]: Access denied: user 6a7c5786dfaabca65e7ed522 is not an admin
+2026-08-12 16:22:49 [WARN]: Role restriction hit: role 'student' not in [admin]
+2026-08-12 16:22:49 [WARN]: Role restriction hit: role 'undefined' not in [admin]
+2026-08-12 16:23:05 [INFO]: Teacher created in database with ID: 6a7c5799bd460643a137073b
+2026-08-12 16:23:05 [WARN]: Teacher registration failed, admin not found for id: 6a7c5799bd460643a1370744
+2026-08-12 16:23:05 [ERROR]: Error registering teacher: Admin not found
+2026-08-12 16:23:05 [WARN]: Teacher already employed with email: dupe@test.com
+2026-08-12 16:23:05 [ERROR]: Error registering teacher: Teacher already employed
+2026-08-12 16:23:06 [INFO]: Teacher created in database with ID: 6a7c579abd460643a1370758
+2026-08-12 16:23:06 [INFO]: Teacher logged in with ID: 6a7c579abd460643a1370758
+2026-08-12 16:23:06 [INFO]: Teacher created in database with ID: 6a7c579abd460643a1370765
+2026-08-12 16:23:06 [WARN]: Teacher login failed, password mismatch for email: loginteacher2@test.com
+2026-08-12 16:23:06 [WARN]: Teacher login failed, no user found for email: nobody@test.com
+2026-08-12 16:23:07 [WARN]: No teacher found for the id provided: 6a7c579bbd460643a137077a
+2026-08-12 16:23:07 [INFO]: Teacher updated by admin with ID: 6a7c579bbd460643a1370780
+2026-08-12 16:23:07 [WARN]: Admin update teacher failed, teacher not found for id: 6a7c579bbd460643a137078a
+2026-08-12 16:23:07 [WARN]: Admin update teacher denied, teacher is withdrawn with id: 6a7c579bbd460643a1370790
+2026-08-12 16:23:12 [INFO]: Student registered in database with ID: 6a7c57a0ca23d7bcb8228640
+2026-08-12 16:23:12 [WARN]: Admin not found with ID: 6a7c57a0ca23d7bcb822864b
+2026-08-12 16:23:12 [ERROR]: Error registering student: Admin not found
+2026-08-12 16:23:12 [WARN]: Student currently exists with email: dupe@test.com
+2026-08-12 16:23:12 [ERROR]: Error registering student: Student currently exists
+2026-08-12 16:23:12 [INFO]: Student registered in database with ID: 6a7c57a0ca23d7bcb8228663
+2026-08-12 16:23:13 [INFO]: Student logged in with ID: 6a7c57a0ca23d7bcb8228663
+2026-08-12 16:23:13 [INFO]: Student registered in database with ID: 6a7c57a1ca23d7bcb8228672
+2026-08-12 16:23:13 [WARN]: Invalid login credentials for email: loginstudent2@test.com
+2026-08-12 16:23:13 [WARN]: Invalid login credentials for email: nobody@test.com
+2026-08-12 16:23:13 [INFO]: Student profile fetched for ID: 6a7c57a1ca23d7bcb8228684
+2026-08-12 16:23:13 [WARN]: Student not found with ID: 6a7c57a1ca23d7bcb822868d
+2026-08-12 16:23:13 [INFO]: Student fetched by admin with ID: 6a7c57a1ca23d7bcb8228695
+2026-08-12 16:23:13 [WARN]: Student not found with ID: 6a7c57a1ca23d7bcb822869e
+2026-08-12 16:23:14 [INFO]: Student updated by admin with ID: 6a7c57a2ca23d7bcb82286a6
+2026-08-12 16:23:14 [WARN]: Student not found with ID: 6a7c57a2ca23d7bcb82286b1
+2026-08-12 16:23:14 [ERROR]: Error updating student by admin with ID 6a7c57a2ca23d7bcb82286b1: Student not found
+2026-08-12 16:23:14 [WARN]: Student not found with ID: 6a7c57a2ca23d7bcb82286b9
+2026-08-12 16:23:14 [WARN]: Exam not found with ID: 6a7c57a2ca23d7bcb82286c4
+2026-08-12 16:23:18 [INFO]: Admin created in database with ID: 6a7c57a5bdd475e0f0770252
+2026-08-12 16:23:18 [INFO]: Admin created in database with ID: 6a7c57a6bdd475e0f077025e
+2026-08-12 16:23:18 [WARN]: Admin already exists with email: dupe@test.com
+2026-08-12 16:23:18 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:23:18 [INFO]: Admin created in database with ID: 6a7c57a6bdd475e0f077026a
+2026-08-12 16:23:19 [INFO]: Admin logged in with ID: 6a7c57a6bdd475e0f077026a
+2026-08-12 16:23:19 [INFO]: Admin created in database with ID: 6a7c57a7bdd475e0f0770276
+2026-08-12 16:23:19 [WARN]: Admin login failed, password mismatch for email: login2@test.com
+2026-08-12 16:23:19 [WARN]: Admin login failed, no user found for email: nobody@test.com
+2026-08-12 16:23:19 [WARN]: No admin found for the id provided: 6a7c57a7bdd475e0f0770295
+2026-08-12 16:23:19 [INFO]: Admin updated in database with ID: 6a7c57a7bdd475e0f077029f
+2026-08-12 16:23:19 [WARN]: Admin update failed, email already exists: taken@test.com
+2026-08-12 16:23:19 [ERROR]: Error updating admin with ID 6a7c57a7bdd475e0f07702ac: This email already exists
+2026-08-12 16:23:23 [WARN]: Access denied: user 6a7c57abf02f2c58f6512984 is not an admin
+2026-08-12 16:23:27 [WARN]: Authentication failed: token expired/invalid
+2026-08-12 16:23:30 [WARN]: Role restriction hit: role 'student' not in [admin]
+2026-08-12 16:23:30 [WARN]: Role restriction hit: role 'undefined' not in [admin]
+2026-08-12 16:23:59 [INFO]: Student registered in database with ID: 6a7c57cf01916cace525f047
+2026-08-12 16:23:59 [WARN]: Admin not found with ID: 6a7c57cf01916cace525f052
+2026-08-12 16:23:59 [ERROR]: Error registering student: Admin not found
+2026-08-12 16:24:00 [WARN]: Student currently exists with email: dupe@test.com
+2026-08-12 16:24:00 [ERROR]: Error registering student: Student currently exists
+2026-08-12 16:24:00 [INFO]: Student registered in database with ID: 6a7c57d001916cace525f06a
+2026-08-12 16:24:00 [INFO]: Student logged in with ID: 6a7c57d001916cace525f06a
+2026-08-12 16:24:00 [INFO]: Student registered in database with ID: 6a7c57d001916cace525f079
+2026-08-12 16:24:00 [WARN]: Invalid login credentials for email: loginstudent2@test.com
+2026-08-12 16:24:00 [WARN]: Invalid login credentials for email: nobody@test.com
+2026-08-12 16:24:01 [INFO]: Student profile fetched for ID: 6a7c57d101916cace525f08b
+2026-08-12 16:24:01 [WARN]: Student not found with ID: 6a7c57d101916cace525f094
+2026-08-12 16:24:01 [INFO]: Student fetched by admin with ID: 6a7c57d101916cace525f09c
+2026-08-12 16:24:01 [WARN]: Student not found with ID: 6a7c57d101916cace525f0a5
+2026-08-12 16:24:01 [INFO]: Student updated by admin with ID: 6a7c57d101916cace525f0ad
+2026-08-12 16:24:01 [WARN]: Student not found with ID: 6a7c57d101916cace525f0b8
+2026-08-12 16:24:01 [ERROR]: Error updating student by admin with ID 6a7c57d101916cace525f0b8: Student not found
+2026-08-12 16:24:01 [WARN]: Student not found with ID: 6a7c57d101916cace525f0c0
+2026-08-12 16:24:01 [WARN]: Exam not found with ID: 6a7c57d101916cace525f0cb
+2026-08-12 16:24:05 [INFO]: Teacher created in database with ID: 6a7c57d576615cfee66589f9
+2026-08-12 16:24:05 [WARN]: Teacher registration failed, admin not found for id: 6a7c57d576615cfee6658a02
+2026-08-12 16:24:05 [ERROR]: Error registering teacher: Admin not found
+2026-08-12 16:24:05 [WARN]: Teacher already employed with email: dupe@test.com
+2026-08-12 16:24:05 [ERROR]: Error registering teacher: Teacher already employed
+2026-08-12 16:24:06 [INFO]: Teacher created in database with ID: 6a7c57d676615cfee6658a16
+2026-08-12 16:24:06 [INFO]: Teacher logged in with ID: 6a7c57d676615cfee6658a16
+2026-08-12 16:24:07 [INFO]: Teacher created in database with ID: 6a7c57d776615cfee6658a23
+2026-08-12 16:24:07 [WARN]: Teacher login failed, password mismatch for email: loginteacher2@test.com
+2026-08-12 16:24:07 [WARN]: Teacher login failed, no user found for email: nobody@test.com
+2026-08-12 16:24:07 [WARN]: No teacher found for the id provided: 6a7c57d776615cfee6658a38
+2026-08-12 16:24:08 [INFO]: Teacher updated by admin with ID: 6a7c57d776615cfee6658a3e
+2026-08-12 16:24:08 [WARN]: Admin update teacher failed, teacher not found for id: 6a7c57d876615cfee6658a48
+2026-08-12 16:24:08 [WARN]: Admin update teacher denied, teacher is withdrawn with id: 6a7c57d876615cfee6658a4e
+2026-08-12 16:24:12 [INFO]: Admin created in database with ID: 6a7c57dbdb2c73738e27c687
+2026-08-12 16:24:12 [INFO]: Admin created in database with ID: 6a7c57dcdb2c73738e27c693
+2026-08-12 16:24:12 [WARN]: Admin already exists with email: dupe@test.com
+2026-08-12 16:24:12 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:24:12 [INFO]: Admin created in database with ID: 6a7c57dcdb2c73738e27c69f
+2026-08-12 16:24:12 [INFO]: Admin logged in with ID: 6a7c57dcdb2c73738e27c69f
+2026-08-12 16:24:13 [INFO]: Admin created in database with ID: 6a7c57dddb2c73738e27c6ab
+2026-08-12 16:24:13 [WARN]: Admin login failed, password mismatch for email: login2@test.com
+2026-08-12 16:24:13 [WARN]: Admin login failed, no user found for email: nobody@test.com
+2026-08-12 16:24:13 [WARN]: No admin found for the id provided: 6a7c57dddb2c73738e27c6ca
+2026-08-12 16:24:13 [INFO]: Admin updated in database with ID: 6a7c57dddb2c73738e27c6d4
+2026-08-12 16:24:13 [WARN]: Admin update failed, email already exists: taken@test.com
+2026-08-12 16:24:13 [ERROR]: Error updating admin with ID 6a7c57dddb2c73738e27c6e1: This email already exists
+2026-08-12 16:24:17 [WARN]: Access denied: user 6a7c57e18afe6a0a3ebe895d is not an admin
+2026-08-12 16:24:21 [WARN]: Authentication failed: token expired/invalid
+2026-08-12 16:24:24 [WARN]: Role restriction hit: role 'student' not in [admin]
+2026-08-12 16:24:24 [WARN]: Role restriction hit: role 'undefined' not in [admin]
+2026-08-12 16:26:31 [INFO]: Program created in database with ID: 6a7c58679c158f7e43263e9f
+2026-08-12 16:26:31 [INFO]: Subject created in database with ID: 6a7c58679c158f7e43263ea5
+2026-08-12 16:26:31 [INFO]: Program created in database with ID: 6a7c58679c158f7e43263ebc
+2026-08-12 16:26:31 [WARN]: Program not found with ID: 6a7c58679c158f7e43263ec0
+2026-08-12 16:26:31 [ERROR]: Error creating subject: Program not found
+2026-08-12 16:26:31 [INFO]: Program created in database with ID: 6a7c58679c158f7e43263ed3
+2026-08-12 16:26:31 [INFO]: Subject created in database with ID: 6a7c58679c158f7e43263ed9
+2026-08-12 16:26:31 [WARN]: Subject already exists with name: dup subject
+2026-08-12 16:26:31 [ERROR]: Error creating subject: Subject already exists
+2026-08-12 16:26:31 [INFO]: Program created in database with ID: 6a7c58679c158f7e43263ef0
+2026-08-12 16:26:31 [INFO]: Subject created in database with ID: 6a7c58679c158f7e43263ef6
+2026-08-12 16:26:32 [INFO]: Program created in database with ID: 6a7c58689c158f7e43263f1a
+2026-08-12 16:26:32 [INFO]: Subject created in database with ID: 6a7c58689c158f7e43263f20
+2026-08-12 16:26:32 [INFO]: Subject updated in database with ID: 6a7c58689c158f7e43263f20
+2026-08-12 16:26:32 [INFO]: Program created in database with ID: 6a7c58689c158f7e43263f37
+2026-08-12 16:26:32 [INFO]: Subject created in database with ID: 6a7c58689c158f7e43263f3d
+2026-08-12 16:26:32 [INFO]: Subject deleted from database with ID: 6a7c58689c158f7e43263f3d
+2026-08-12 16:26:32 [WARN]: No subject found for deletion with ID: 6a7c58689c158f7e43263f4f
+2026-08-12 16:26:32 [ERROR]: Error deleting subject with ID 6a7c58689c158f7e43263f4f: No subject record found for the id provided
+2026-08-12 16:26:35 [INFO]: Fetching all exam results
+2026-08-12 16:26:35 [INFO]: Fetched all exam results
+2026-08-12 16:26:35 [WARN]: Student login check failed: token expired/invalid
+2026-08-12 16:26:35 [INFO]: Checking exam result ID: 6a7c586b398fcb48aa0ac48a for student ID: 6a7c586b398fcb48aa0ac488
+2026-08-12 16:26:35 [WARN]: Exam results not found for result ID: 6a7c586b398fcb48aa0ac48a
+2026-08-12 16:26:35 [ERROR]: Error checking exam result with ID 6a7c586b398fcb48aa0ac48a: Exam results not found
+2026-08-12 16:26:36 [WARN]: Access denied: user undefined is not a student
+2026-08-12 16:26:36 [INFO]: Toggling publish state for exam result ID: 6a7c586c398fcb48aa0ac4b1
+2026-08-12 16:26:36 [INFO]: Exam result publish state updated for ID: 6a7c586c398fcb48aa0ac4b1
+2026-08-12 16:26:36 [INFO]: Exam result publish state updated for ID: 6a7c586c398fcb48aa0ac4b1
+2026-08-12 16:26:36 [INFO]: Toggling publish state for exam result ID: 6a7c586c398fcb48aa0ac4c6
+2026-08-12 16:26:36 [WARN]: Exam result not found with ID: 6a7c586c398fcb48aa0ac4c6
+2026-08-12 16:26:36 [ERROR]: Error updating exam result with ID 6a7c586c398fcb48aa0ac4c6: Exam result not found
+2026-08-12 16:26:36 [WARN]: Access denied: user undefined is not an admin
+2026-08-12 16:26:38 [INFO]: Creating academic term for admin ID: 6a7c586eef4269f3b6e3f188, data: {"name":"Winter term","description":"Cold season","duration":"3 months"}
+2026-08-12 16:26:38 [INFO]: Academic term created in database with ID: 6a7c586eef4269f3b6e3f18c
+2026-08-12 16:26:38 [INFO]: Academic term created successfully with ID: 6a7c586eef4269f3b6e3f18c
+2026-08-12 16:26:38 [WARN]: Authentication failed: token expired/invalid
+2026-08-12 16:26:38 [INFO]: Fetching academic term with ID: 6a7c586eef4269f3b6e3f1ab
+2026-08-12 16:26:38 [INFO]: Academic term fetched successfully with ID: 6a7c586eef4269f3b6e3f1ab
+2026-08-12 16:26:38 [INFO]: Fetching academic term with ID: 6a7c586eef4269f3b6e3f1bd
+2026-08-12 16:26:38 [ERROR]: Error fetching academic term with ID 6a7c586eef4269f3b6e3f1bd: No academic term found for the corresponding id provided
+2026-08-12 16:26:39 [INFO]: Fetching all academic terms
+2026-08-12 16:26:39 [INFO]: Updating academic term with ID: 6a7c586fef4269f3b6e3f1e1, data: {"name":"New name","description":"updated","duration":"4 months"}
+2026-08-12 16:26:39 [INFO]: Academic term updated in database with ID: 6a7c586fef4269f3b6e3f1e1
+2026-08-12 16:26:39 [INFO]: Academic term updated successfully with ID: 6a7c586fef4269f3b6e3f1e1
+2026-08-12 16:26:39 [INFO]: Deleting academic term with ID: 6a7c586fef4269f3b6e3f1f5
+2026-08-12 16:26:39 [INFO]: Academic term deleted from database with ID: 6a7c586fef4269f3b6e3f1f5
+2026-08-12 16:26:39 [INFO]: Academic term deleted successfully with ID: 6a7c586fef4269f3b6e3f1f5
+2026-08-12 16:26:39 [INFO]: Fetching academic term with ID: 6a7c586fef4269f3b6e3f1f5
+2026-08-12 16:26:39 [ERROR]: Error fetching academic term with ID 6a7c586fef4269f3b6e3f1f5: No academic term found for the corresponding id provided
+2026-08-12 16:26:41 [INFO]: Registering admin with data: {"name":"Reg Admin","email":"reg@test.com","password":"password123"}
+2026-08-12 16:26:41 [INFO]: Admin created in database with ID: 6a7c5871544d5430e837fa8e
+2026-08-12 16:26:41 [INFO]: Admin registered successfully with ID: 6a7c5871544d5430e837fa8e
+2026-08-12 16:26:41 [INFO]: Registering admin with data: {"name":"Dup Admin","email":"dup@test.com","password":"password123"}
+2026-08-12 16:26:41 [WARN]: Admin already exists with email: dup@test.com
+2026-08-12 16:26:41 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:26:41 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:26:41 [INFO]: Admin login attempt for email: login@test.com
+2026-08-12 16:26:41 [INFO]: Admin logged in with ID: 6a7c5871544d5430e837faac
+2026-08-12 16:26:41 [INFO]: Admin logged in successfully for email: login@test.com
+2026-08-12 16:26:42 [INFO]: Admin login attempt for email: wrongpw@test.com
+2026-08-12 16:26:42 [WARN]: Admin login failed, password mismatch for email: wrongpw@test.com
+2026-08-12 16:26:42 [INFO]: Fetching admin profile for ID: 6a7c5872544d5430e837faca
+2026-08-12 16:26:42 [INFO]: Admin profile fetched successfully for ID: 6a7c5872544d5430e837faca
+2026-08-12 16:26:42 [WARN]: Authentication failed: token expired/invalid
+2026-08-12 16:26:44 [INFO]: Exam created in database with ID: 6a7c587419bcbf2409cc8aba
+2026-08-12 16:26:44 [WARN]: Teacher not found with ID: 6a7c587419bcbf2409cc8ad1
+2026-08-12 16:26:44 [ERROR]: Error creating exam: Teacher not found
+2026-08-12 16:26:44 [INFO]: Exam created in database with ID: 6a7c587419bcbf2409cc8ae8
+2026-08-12 16:26:44 [WARN]: Exam already exists with name: dup exam
+2026-08-12 16:26:44 [ERROR]: Error creating exam: Exam already exists!
+2026-08-12 16:26:44 [INFO]: Exam created in database with ID: 6a7c587419bcbf2409cc8b08
+2026-08-12 16:26:45 [INFO]: Exam created in database with ID: 6a7c587519bcbf2409cc8b30
+2026-08-12 16:26:45 [INFO]: Exam updated in database with ID: 6a7c587519bcbf2409cc8b30
+2026-08-12 16:26:45 [INFO]: Exam created in database with ID: 6a7c587519bcbf2409cc8b50
+2026-08-12 16:26:45 [INFO]: Exam deleted from database with ID: 6a7c587519bcbf2409cc8b50
+2026-08-12 16:26:45 [INFO]: Exam deleted from database with ID: 6a7c587519bcbf2409cc8b62
+2026-08-12 16:26:47 [INFO]: Academic term created in database with ID: 6a7c5877c0e716b0f0780b88
+2026-08-12 16:26:47 [INFO]: Academic term created in database with ID: 6a7c5877c0e716b0f0780b9d
+2026-08-12 16:26:47 [WARN]: Academic term already exists with name: dup term
+2026-08-12 16:26:47 [ERROR]: Error creating academic term: Academic term already exists
+2026-08-12 16:26:48 [INFO]: Academic term updated in database with ID: 6a7c5878c0e716b0f0780bcf
+2026-08-12 16:26:48 [INFO]: Academic term deleted from database with ID: 6a7c5878c0e716b0f0780be1
+2026-08-12 16:26:49 [WARN]: No academic term found for deletion with ID: 6a7c5879c0e716b0f0780bf1
+2026-08-12 16:26:49 [ERROR]: Error deleting academic term with ID 6a7c5879c0e716b0f0780bf1: No academic term record found for the id provided
+2026-08-12 16:26:50 [INFO]: Academic year created in database with ID: 6a7c587aca400113e2b27193
+2026-08-12 16:26:50 [INFO]: Academic year created in database with ID: 6a7c587aca400113e2b271a8
+2026-08-12 16:26:50 [WARN]: Academic year already exists with name: dup year
+2026-08-12 16:26:50 [ERROR]: Error creating academic year: Academic year already exists
+2026-08-12 16:26:51 [INFO]: Academic year created in database with ID: 6a7c587bca400113e2b271bc
+2026-08-12 16:26:51 [INFO]: Academic year created in database with ID: 6a7c587bca400113e2b271de
+2026-08-12 16:26:51 [INFO]: Academic year updated in database with ID: 6a7c587bca400113e2b271de
+2026-08-12 16:26:51 [INFO]: Academic year created in database with ID: 6a7c587bca400113e2b271f3
+2026-08-12 16:26:51 [INFO]: Academic year deleted from database with ID: 6a7c587bca400113e2b271f3
+2026-08-12 16:26:51 [WARN]: No academic year found for deletion with ID: 6a7c587bca400113e2b27205
+2026-08-12 16:26:51 [ERROR]: Error deleting academic year with ID 6a7c587bca400113e2b27205: No academic year record found for the id provided
+2026-08-12 16:26:53 [INFO]: Program created in database with ID: 6a7c587d64d58c05769c79ad
+2026-08-12 16:26:53 [INFO]: Program created in database with ID: 6a7c587d64d58c05769c79c2
+2026-08-12 16:26:53 [WARN]: Program already exists with name: dup prog
+2026-08-12 16:26:53 [ERROR]: Error creating program: Program already exists
+2026-08-12 16:26:54 [INFO]: Program created in database with ID: 6a7c587e64d58c05769c79d6
+2026-08-12 16:26:54 [INFO]: Program created in database with ID: 6a7c587e64d58c05769c79f8
+2026-08-12 16:26:54 [INFO]: Program updated in database with ID: 6a7c587e64d58c05769c79f8
+2026-08-12 16:26:55 [INFO]: Program created in database with ID: 6a7c587f64d58c05769c7a0d
+2026-08-12 16:26:55 [INFO]: Program deleted from database with ID: 6a7c587f64d58c05769c7a0d
+2026-08-12 16:26:55 [WARN]: No program found for deletion with ID: 6a7c587f64d58c05769c7a1f
+2026-08-12 16:26:55 [ERROR]: Error deleting program with ID 6a7c587f64d58c05769c7a1f: No program record found for the id provided
+2026-08-12 16:27:00 [INFO]: Student registered in database with ID: 6a7c58844ffc2d8d0f4cdf70
+2026-08-12 16:27:00 [WARN]: Admin not found with ID: 6a7c58844ffc2d8d0f4cdf81
+2026-08-12 16:27:00 [ERROR]: Error registering student: Admin not found
+2026-08-12 16:27:00 [WARN]: Student currently exists with email: dupe@test.com
+2026-08-12 16:27:00 [ERROR]: Error registering student: Student currently exists
+2026-08-12 16:27:01 [INFO]: Student registered in database with ID: 6a7c58854ffc2d8d0f4cdfa5
+2026-08-12 16:27:01 [INFO]: Student logged in with ID: 6a7c58854ffc2d8d0f4cdfa5
+2026-08-12 16:27:01 [INFO]: Student registered in database with ID: 6a7c58854ffc2d8d0f4cdfba
+2026-08-12 16:27:01 [WARN]: Invalid login credentials for email: loginstudent2@test.com
+2026-08-12 16:27:01 [WARN]: Invalid login credentials for email: nobody@test.com
+2026-08-12 16:27:02 [INFO]: Student profile fetched for ID: 6a7c58864ffc2d8d0f4cdfd8
+2026-08-12 16:27:02 [WARN]: Student not found with ID: 6a7c58864ffc2d8d0f4cdfe7
+2026-08-12 16:27:02 [INFO]: Student fetched by admin with ID: 6a7c58864ffc2d8d0f4cdff5
+2026-08-12 16:27:02 [WARN]: Student not found with ID: 6a7c58864ffc2d8d0f4ce004
+2026-08-12 16:27:02 [INFO]: Student updated by admin with ID: 6a7c58864ffc2d8d0f4ce012
+2026-08-12 16:27:02 [WARN]: Student not found with ID: 6a7c58864ffc2d8d0f4ce023
+2026-08-12 16:27:02 [ERROR]: Error updating student by admin with ID 6a7c58864ffc2d8d0f4ce023: Student not found
+2026-08-12 16:27:02 [WARN]: Student not found with ID: 6a7c58864ffc2d8d0f4ce031
+2026-08-12 16:27:02 [WARN]: Exam not found with ID: 6a7c58864ffc2d8d0f4ce042
+2026-08-12 16:27:04 [INFO]: Teacher created in database with ID: 6a7c5888f29ba12a2916fea1
+2026-08-12 16:27:04 [WARN]: Teacher registration failed, admin not found for id: 6a7c5888f29ba12a2916feb2
+2026-08-12 16:27:04 [ERROR]: Error registering teacher: Admin not found
+2026-08-12 16:27:04 [WARN]: Teacher already employed with email: dupe@test.com
+2026-08-12 16:27:04 [ERROR]: Error registering teacher: Teacher already employed
+2026-08-12 16:27:05 [INFO]: Teacher created in database with ID: 6a7c5889f29ba12a2916fed6
+2026-08-12 16:27:05 [INFO]: Teacher logged in with ID: 6a7c5889f29ba12a2916fed6
+2026-08-12 16:27:05 [INFO]: Teacher created in database with ID: 6a7c5889f29ba12a2916feeb
+2026-08-12 16:27:05 [WARN]: Teacher login failed, password mismatch for email: loginteacher2@test.com
+2026-08-12 16:27:05 [WARN]: Teacher login failed, no user found for email: nobody@test.com
+2026-08-12 16:27:05 [WARN]: No teacher found for the id provided: 6a7c5889f29ba12a2916ff18
+2026-08-12 16:27:06 [INFO]: Teacher updated by admin with ID: 6a7c588af29ba12a2916ff26
+2026-08-12 16:27:06 [WARN]: Admin update teacher failed, teacher not found for id: 6a7c588af29ba12a2916ff38
+2026-08-12 16:27:06 [WARN]: Admin update teacher denied, teacher is withdrawn with id: 6a7c588af29ba12a2916ff46
+2026-08-12 16:27:08 [INFO]: Admin created in database with ID: 6a7c588c3602181ae415230a
+2026-08-12 16:27:08 [INFO]: Admin created in database with ID: 6a7c588c3602181ae415231a
+2026-08-12 16:27:08 [WARN]: Admin already exists with email: dupe@test.com
+2026-08-12 16:27:08 [ERROR]: Error registering admin: Email is already registered
+2026-08-12 16:27:09 [INFO]: Admin created in database with ID: 6a7c588d3602181ae415232a
+2026-08-12 16:27:09 [INFO]: Admin logged in with ID: 6a7c588d3602181ae415232a
+2026-08-12 16:27:10 [INFO]: Admin created in database with ID: 6a7c588d3602181ae415233a
+2026-08-12 16:27:10 [WARN]: Admin login failed, password mismatch for email: login2@test.com
+2026-08-12 16:27:10 [WARN]: Admin login failed, no user found for email: nobody@test.com
+2026-08-12 16:27:10 [WARN]: No admin found for the id provided: 6a7c588e3602181ae4152365
+2026-08-12 16:27:11 [INFO]: Admin updated in database with ID: 6a7c588f3602181ae4152373
+2026-08-12 16:27:11 [WARN]: Admin update failed, email already exists: taken@test.com
+2026-08-12 16:27:11 [ERROR]: Error updating admin with ID 6a7c588f3602181ae4152384: This email already exists
+2026-08-12 16:27:17 [WARN]: Access denied: user 6a7c5895ede0d049f87147ba is not an admin
+2026-08-12 16:27:19 [WARN]: Authentication failed: token expired/invalid
+2026-08-12 16:27:23 [WARN]: Role restriction hit: role 'student' not in [admin]
+2026-08-12 16:27:23 [WARN]: Role restriction hit: role 'undefined' not in [admin]
